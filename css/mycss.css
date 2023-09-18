@@ -1,0 +1,27 @@
+.info{
+ padding: 30px;
+ background: #fff;
+ width: 100%;
+ box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.skill-container {
+ display: flex;
+ flex-wrap: wrap;
+}
+.skill-item {
+ list-style: none;
+ flex: 0 0 33.333333%;
+}
+.publication {
+ background: #f5f8fd;
+}
+.publication-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+.card{
+ flex: 0 0 50%;
+ background-color: transparent;
+ /*background-clip: border-box;*/
+ border: none;
+}
